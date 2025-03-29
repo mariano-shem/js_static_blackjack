@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+</head>
+<body>
+  <main>
+    <form name="myform">
+      <p>
+        <label for="user-name">Name: </label>
+        <input type="text" name="name" id="user-name">
+      </p>
+      <p>
+        <label for="user-age">Age: </label>
+        <input type="number" name="age" id="user-age" min="18">
+      </p>
+      <p>
+        <label for="user-country">Country: </label>
+        <input type="text" name="country" id="user-country">
+      </p>
+      <p>
+        <button type="button" id="submit-btn" onclick="storeUser()">Submit</button>
+      </p>
+    </form>
+    <section>
+      <p id="sentence"></p>
+    </section>
+  </main>
+  <script src="test.js"></script>
+</body>
+</html>
